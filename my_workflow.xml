@@ -9,8 +9,18 @@
     <visibility>5</visibility>
     <allowSchedule/>
     <task name="Task_task1.py">
-      <processPath>/opt/fmc_repository/Process/workflows/my_workflow/Process_init/Tasks</processPath>
+      <processPath>/opt/fmc_repository/Process/my_workflow/Process_init/Tasks</processPath>
       <displayName>task1</displayName>
+    </task>
+  </process>
+  <process name="Process/my_workflow/Process_delete">
+    <displayName>delete</displayName>
+    <type>DELETE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_delete.py">
+      <processPath>/opt/fmc_repository/Process/my_workflow/Process_delete/Tasks</processPath>
+      <displayName>delete</displayName>
     </task>
   </process>
   <information>
